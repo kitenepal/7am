@@ -1,0 +1,20 @@
+.navbar-inverse{
+	background-color: $secondary-color;
+}
+
+.navbar{
+	border-radius: 0;
+	.navbar-brand{
+		color: $primary-color !important;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	ul li a{
+		color: $primary-color !important;
+		font-weight: bold;
+		text-transform: uppercase;
+		&:hover{
+			color: #fff !important;
+		}
+	}
+}

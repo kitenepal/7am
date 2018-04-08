@@ -1,0 +1,25 @@
+/* line 1, ../sass/module/_navbar.scss */
+.navbar-inverse {
+  background-color: #222222;
+}
+
+/* line 5, ../sass/module/_navbar.scss */
+.navbar {
+  border-radius: 0;
+}
+/* line 7, ../sass/module/_navbar.scss */
+.navbar .navbar-brand {
+  color: #FFC107 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 12, ../sass/module/_navbar.scss */
+.navbar ul li a {
+  color: #FFC107 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 16, ../sass/module/_navbar.scss */
+.navbar ul li a:hover {
+  color: #fff !important;
+}
