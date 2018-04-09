@@ -1,3 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Yeon+Sung");
+@import url("https://fonts.googleapis.com/css?family=Gugi");
+/* line 6, ../sass/base/_base.scss */
+body {
+  font-family: 'Yeon Sung', cursive;
+}
+
+/* line 10, ../sass/base/_base.scss */
+p {
+  font-size: 20px;
+}
+
+/* line 16, ../sass/base/_base.scss */
+.section-padding {
+  padding: 40px 0;
+}
+
+/* line 21, ../sass/base/_base.scss */
+.heading-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: 'Gugi', cursive;
+}
+
+/* line 29, ../sass/base/_base.scss */
+.primary_btn {
+  background-color: #222222;
+  color: #FFC107;
+  border: 2px solid #FFC107;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.2s;
+}
+/* line 37, ../sass/base/_base.scss */
+.primary_btn:hover {
+  background-color: #FFC107;
+  color: #222222;
+  border-color: #222222;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar-inverse {
   background-color: #222222;
