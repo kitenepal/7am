@@ -88,3 +88,26 @@ p {
 .ad-item {
   padding: 5px 0;
 }
+
+/* line 1, ../sass/module/_newspaper.scss */
+.newspaper {
+  background-color: #fff;
+}
+/* line 3, ../sass/module/_newspaper.scss */
+.newspaper--content {
+  border: 5px double #009966;
+  padding: 10px;
+}
+/* line 6, ../sass/module/_newspaper.scss */
+.newspaper--content__header {
+  background-color: #f3f6f7;
+}
+/* line 9, ../sass/module/_newspaper.scss */
+.newspaper--content__body {
+  padding: 20px 0;
+}
+/* line 11, ../sass/module/_newspaper.scss */
+.newspaper--content__body h3 {
+  color: #006633;
+  font-weight: bold;
+}

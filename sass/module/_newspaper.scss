@@ -1,0 +1,17 @@
+.newspaper{
+	background-color: #fff;
+	&--content{
+		border: 5px double $primary-color;
+		padding: 10px;
+		&__header{
+			background-color: #f3f6f7;
+		}
+		&__body{
+			padding: 20px 0;
+			h3{
+				color: $primary-dark-color;
+				font-weight: bold;
+			}
+		}
+	}
+}
