@@ -83,3 +83,8 @@ p {
 .navbar ul li a:hover {
   color: #006633 !important;
 }
+
+/* line 1, ../sass/module/_ad.scss */
+.ad-item {
+  padding: 5px 0;
+}
