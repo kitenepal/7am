@@ -3,19 +3,20 @@
 /* line 6, ../sass/base/_base.scss */
 body {
   font-family: 'Yeon Sung', cursive;
+  background-color: #f3f6f7;
 }
 
-/* line 10, ../sass/base/_base.scss */
+/* line 11, ../sass/base/_base.scss */
 p {
   font-size: 20px;
 }
 
-/* line 16, ../sass/base/_base.scss */
+/* line 17, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
 
-/* line 21, ../sass/base/_base.scss */
+/* line 22, ../sass/base/_base.scss */
 .heading-title {
   font-weight: bold;
   text-transform: uppercase;
@@ -24,7 +25,7 @@ p {
   margin-bottom: 40px;
 }
 
-/* line 30, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .primary_btn {
   background-color: #ff6600;
   color: #009966;
@@ -36,7 +37,7 @@ p {
   letter-spacing: 1.8px;
   margin: 10px 0;
 }
-/* line 40, ../sass/base/_base.scss */
+/* line 41, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #009966;
   color: #ff6600;
@@ -54,4 +55,31 @@ p {
 .header {
   background-color: #009966;
   padding: 10px 0;
+}
+
+/* line 1, ../sass/module/_navbar.scss */
+.navbar-inverse {
+  background-color: #fff;
+}
+
+/* line 5, ../sass/module/_navbar.scss */
+.navbar {
+  border-radius: 0;
+  border-color: #009966;
+}
+/* line 8, ../sass/module/_navbar.scss */
+.navbar .navbar-brand {
+  color: #009966 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 13, ../sass/module/_navbar.scss */
+.navbar ul li a {
+  color: #009966 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 17, ../sass/module/_navbar.scss */
+.navbar ul li a:hover {
+  color: #006633 !important;
 }
